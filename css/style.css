@@ -1,0 +1,331 @@
+body{
+        background-color: whitesmoke;
+}
+/* ************ Start Navbar ******************/
+.Arrow{
+    background-color: #0d6efd;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+
+}
+/* ************ End Navbar****************** */
+
+/* ************ Start Header ******************/
+#home{
+    background-image:linear-gradient(to right ,#00000077 ,#00000077  ),url(./../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home h1 {
+    font-size: 72px;
+}
+#home h2::after{
+    content: "";
+    animation: text infinite alternate 9s;
+    -webkit-animation: text infinite alternate 9s;
+}
+
+@keyframes text{
+    0%{
+        content: " |";
+    }
+    5%{
+        content: "De|";
+    }
+    10%{
+        content: "Deve|";
+    }
+    15%{
+        content: "Develo|";
+    }
+    20%{
+        content: "Developer|";
+    }
+    25%{
+        content: "Fr|";
+    }
+    30%{
+        content: "Free|";
+    }
+    35%{
+        content: "Freela|";
+    }
+    40%{
+        content: "Freelanc|";
+    }
+    45%{
+        content: "Freelancer|";
+    }
+    50%{
+        content: "Ph|";
+    }
+    55%{
+        content: "Phot|";
+    }
+    60%{
+        content: "Photog|";
+    }
+    65%{
+        content: "Photogra|";
+    }
+    70%{
+        content: "Photograph|";
+    }
+    75%{
+        content: "Photographer|";
+    }
+    80%{
+        content: "De|";
+    }
+    85%{
+        content: "Desi|";
+    }
+    90%{
+        content: "Design|";
+    }
+    95%{
+        content: "Designer|";
+    }
+    100%{
+        content: "|";
+    }
+}
+
+/* ************ End header ******************/
+
+/* ************Start About****************** */
+
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.skills .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.line{
+    width: 98px;
+    height: 2.3px;
+    background-color: #0d6efd;
+
+}
+/* ************End About****************** */
+/* ************Start Service****************** */
+.tittle-box{
+    font-size: 48px;
+}
+.line-service{
+    width: 50px;
+    height: 4px;
+    background-color: #0d6efd;
+}
+.service-icon{
+    height: 120px;
+    width: 120px;
+    border-style: solid;
+    border-color: #0d6efd;
+    border-width: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.service-box:hover .service-icon{ 
+    border-radius: 50%;
+    border-color: #CDE1F8;
+    background-color:#0d6efd;
+     color: white; 
+     -webkit-border-radius: 50%;
+      -moz-border-radius: 50%; 
+      -ms-border-radius: 50%; 
+      -o-border-radius: 50%;
+}
+
+
+/* ************End Service****************** */
+/* ************Start collection****************** */
+#collection{
+    background-image:linear-gradient(to right ,rgb(0, 120, 255,0.7),rgb(0, 120, 255,0.7)),url(./../images/counters-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.icon-total{
+    height: 90px;
+    width: 90px;
+    border-style: solid;
+    border-width: 10px; 
+}
+/* ************End collection****************** */
+/* ************Start Portfolio***************** */
+.Web-Design{
+    font-size: 12px;
+}
+.addition{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-color: #0d6efd;
+    border-width: 3px;
+    color: #0d6efd;
+    
+}
+.contane ,.addition{
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.contane img{
+    transition-property:transform;
+    transition-duration: 5s;
+}
+.hover-image:hover img{
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+}
+
+/* ************End Portfolio***************** */
+/* ************Start slider***************** */
+.carousel-item{
+        background-image:linear-gradient(to right ,rgb(0, 120, 255,0.7),rgb(0, 120, 255,0.7)),url(./../images/overlay-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.carousel-indicators .bbuton{
+    width: 15px;
+    height: 15px;
+    
+}
+.content-img1{
+    width: 200px;
+    height: 200px;
+    background-image: url(./../images/testimonial-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-img2{
+    width: 200px;
+    height: 200px;
+    background-image: url(./../images/testimonial-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ************End slider***************** */
+/* ************Start Blog***************** */
+.discript-picture .image{
+    width: 40px;
+    height: 40px;
+    background-image: url(./../images/testimonial-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.small-text{
+    width: 100px;
+    height: 30px;
+    background-color: #0d6efd;
+    font-size: 12px;
+    top: 55%;
+    left: 35%;
+}
+
+.ankor{
+    color: black;
+    cursor: pointer;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.ankor:hover {
+    color: #0d6efd;
+}
+/* ************End Blog***************** */
+/* ************Start CONTACT US***************** */
+#Contact-us{
+    background-image:linear-gradient(to right ,rgb(0, 120, 255,0.7),rgb(0, 120, 255,0.7)),url(./../images/overlay-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* ************End CONTACT US***************** */
+.line-underline{
+    width: 100px;
+    height: 4px;
+    background-color: #0d6efd;
+}
+input{
+    padding: 8px;
+    margin: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Subject{
+    width: 97.5%;
+}
+.Email{
+    width: 97.5%;
+}
+.name{
+    width: 97.5%;
+}
+textarea{
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 97.5%;
+    resize: both;
+}
+.button button{
+    height: 50px;
+    line-height: 38px;
+    width: 170px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    background-color: #0d6efd;
+} button:hover{
+    background-color: #0d89fd;
+}
+.icon-face {
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.icon-face:hover{
+    background-color: #0d89fd;
+    color: white;
+    border-color:white;
+}
+/* ************Start footer***************** */
+#footer{
+    background-color: rgb(0, 98, 211);
+}
+/* ************End footer***************** */
+
+
